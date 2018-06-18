@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: url("../../assets/images/buddy_bg.png") no-repeat;
+    background-size: auto;
+}
+
+canvas {
+    display: block;
+}
+
+#instructions {
+    font-family: "Courier New", sans-serif;
+    font-size: 14px;
+    position: absolute;
+    color: #fff;
+    bottom: 0;
+    padding-bottom: 6px;
+    width: 100%;
+    text-align: center;
+    pointer-events: none;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    z-index: 1;
+}
+
+#top-container {
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 40px;
+    padding-top: 10px;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    color: black;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    z-index: 2;
+    display: none;
+}
