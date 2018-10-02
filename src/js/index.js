@@ -308,8 +308,8 @@ var DissolvingGallery = (_temp2 = _class2 = function (_React$Component2) {
                                 scene = new THREE.Scene();
 
                                 this.createLights(scene);
-                                width = 140;
-                                height = 80;
+                                width = 100;
+                                height = 60;
 
                                 this.slide0 = new Slide(width, height, 'out');
                                 scene.add(this.slide0);
