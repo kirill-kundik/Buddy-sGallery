@@ -308,8 +308,8 @@ var DissolvingGallery = (_temp2 = _class2 = function (_React$Component2) {
                                 scene = new THREE.Scene();
 
                                 this.createLights(scene);
-                                width = 100;
-                                height = 60;
+                                width = 60;
+                                height = 40;
 
                                 this.slide0 = new Slide(width, height, 'out');
                                 scene.add(this.slide0);
@@ -439,8 +439,8 @@ var DissolvingGallery = (_temp2 = _class2 = function (_React$Component2) {
                 'div',
                 null,
                 React.createElement('canvas', {
-                    width: '480',
-                    height: '320',
+                    width: '1080',
+                    height: '720',
                     ref: function ref(c) {
                         return _this7.canvas = c;
                     }
